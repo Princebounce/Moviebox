@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LaBelleAurore';
+  src: url('assets/fonts/LaBelleAurore.woff');
+}
+
+@font-face {
+  font-family: 'CoolveticaRg';
+  src: url('assets/fonts/CoolveticaRg-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'LaBelleAurore';
+  src: url('assets/fonts/LaBelleAurore.woff2');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('assets/fonts/helvetica-neu.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neu',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "LaBelleAurore",
+    monospace;
+}
